@@ -10,9 +10,12 @@ package calculatios;
  * @author User
  */
 public class Test {
-    int data  = 50;
+
     
-    public void printInfo(){
-        System.err.println(" The value of Data is :"+data);
+    
+    public static void main(String[] args) {
+        Formulas formulas = new Formulas();
+        System.out.println(formulas.doSum(3, 5));
     }
+    
 }
